@@ -15,22 +15,23 @@
 
 body{
     background-color: #fe621d;
-    max-width: 100%;
+    max-width: 100vw;
 }
 
 .leftAlignHeader{
     color: white;
-    margin-left: 5%;
-    margin-top: 2.5%;
-    font-size: 200%;
+    margin-left: 1vw;
+    margin-top: 2.5vh;
+    font-size: 2.5vw;
+    float: left;
 }
 
 .rightAlignHeader{
     color: white;
-    margin-top: -2.5%;
-    margin-right: 5%;
-    font-size: 200%;
-    text-align: right;
+    margin-right: 1vw;
+    font-size: 2.5vw;
+    margin-top: 2.5vh;
+    float: right;
     font-family: "Lato Thin", sans-serif;
 }
 
@@ -40,7 +41,6 @@ body{
 
 .icon:hover{
     color: red;
-    margin: 0;
 }
 
 .nameFooter{
@@ -50,19 +50,18 @@ body{
 }
 
 .subTitle{
-    margin-left: 12.5%;
-    font-size: 200%;
+    margin-left: 2.5vw;
+    font-size: 3vw;
     color: white;
     font-family: "Lato Thin", sans-serif;
-    margin-bottom: 0%;
 }
 
 .name{
     font-family: "Apple Tea", sans-serif;
     color: white;
     text-align: left;
-    font-size: 400%;
-    margin-left: 10%;
-    margin-top: -7.5%;
+    font-size: 4vw;
+    margin-left: 1vw;
+    margin-top: -10vh;
 }
 
